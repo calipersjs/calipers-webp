@@ -1,0 +1,39 @@
+{
+  "name": "calipers-webp",
+  "version": "0.1.0",
+  "description": "WEBP plugin for calipers.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test istanbul cover _mocha -- test --recursive --timeout 15000",
+    "enforce": "istanbul check-coverage --statement 100 --branch 100 --function 100 --lines 100",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calipersjs/calipers-webp.git"
+  },
+  "keywords": [
+    "image",
+    "size",
+    "webp"
+  ],
+  "author": "Vadym Borodin <borodean@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calipersjs/calipers-webp/issues"
+  },
+  "homepage": "https://github.com/calipersjs/calipers-webp",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "chai-as-promised": "^4.3.0",
+    "coveralls": "^2.11.2",
+    "eslint": "^1.9.0",
+    "eslint-config-lob": "^1.0.1",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.1.0",
+    "mocha-lcov-reporter": "0.0.2"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.13"
+  }
+}
