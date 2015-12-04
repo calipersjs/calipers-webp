@@ -1,6 +1,6 @@
 #calipers-webp
 
-[![npm version](https://badge.fury.io/js/calipers-webp.svg)](http://badge.fury.io/js/calipers-webp) [![Build Status](https://travis-ci.org/calipersjs/calipers-webp.svg)](https://travis-ci.org/calipersjs/calipers-webp) [![Coverage Status](https://coveralls.io/repos/calipersjs/calipers-webp/badge.svg)](https://coveralls.io/r/calipersjs/calipers-webp)
+[![npm version](https://badge.fury.io/js/calipers-webp.svg)](http://badge.fury.io/js/calipers-webp) [![Build Status](https://travis-ci.org/calipersjs/calipers-webp.svg?branch=master)](https://travis-ci.org/calipersjs/calipers-webp) [![Coverage Status](https://coveralls.io/repos/calipersjs/calipers-webp/badge.svg)](https://coveralls.io/r/calipersjs/calipers-webp)
 
 WEBP Plugin for [Calipers](https://github.com/calipersjs/calipers).
 
